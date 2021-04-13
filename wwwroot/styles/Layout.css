@@ -1,0 +1,88 @@
+﻿.main_menu
+{
+	width:960px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+body
+{
+	background-position:left;
+	background-repeat:no-repeat;
+	min-width: 760px;
+	max-width: 1600px;
+	font-size:62.5%;
+	color:White;
+}
+.menu
+{
+  width:216px;
+  
+}
+.Header
+{
+	background-color: #99CCFF;
+	font-weight: bold;
+}
+
+table
+{
+	border:0;
+	border-collapse:collapse;
+	font: normal 12px 'Lucida Grande', 'Verdana,sans-serif';
+}
+
+h2
+{
+	font-family: Monotype Corsiva;
+	color:White;
+}
+
+.container
+{
+	float:left;
+	width:940px;
+	padding:5px 5px;
+}
+.container .header
+{
+	font-weight:bold;
+	font-size:20px;
+}
+.container .left
+{
+	float:left;
+	width:350px;
+}
+.container .left .inner_left
+{
+	padding:5px;
+	display:block;
+	float:left;
+}
+.container .left .image
+{
+	width:48px;
+}
+
+.container .left .text
+{
+	width:200px;
+	cursor:pointer;
+}
+.text .header_text
+{
+	text-decoration:underline;
+	width:250px;
+	display:block;
+	font-weight:bold;
+	color:Aqua;
+	font-size:x-large;
+}
+.text .ket_text
+{
+	width:250px;
+	display:block;
+	color:Aqua;
+	font-size:large;
+}

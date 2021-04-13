@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode url="~/default2.aspx"  title="Permohonan"  description="">
+		<siteMapNode url="" title="Permohonan"  description="">
+			<siteMapNode url="~/Utility/Permohonan.aspx" title="Input Permohonan" />
+			<siteMapNode url="~/Utility/ListPermohonan.aspx" title="Daftar Permohonan" />
+		</siteMapNode>
+		<siteMapNode url="" title="Data Izin">
+			<siteMapNode url="~/Utility/Izin/IMB/IMBEditForm.aspx" title="IMB"/>
+			<siteMapNode url="~/Utility/Izin/Lokasi/LokasiForm.aspx" title="Lokasi"/>
+			<siteMapNode url="~/Utility/Izin/IUI/IUI.aspx" title="IUI"/>
+			<!--<siteMapNode url="~/Utility/Izin/IPT/IPT.aspx" title="IPT"/>-->
+			<siteMapNode url="~/Utility/Izin/IPI/IPI.aspx" title="IPI"/>
+			<siteMapNode url="~/Utility/Izin/TDI/TDI.aspx" title="TDI"/>
+			<siteMapNode url="~/Utility/Izin/HO/DataHO.aspx" title="HO"/>
+			<siteMapNode url="~/Utility/Izin/SIUP/SIUP.aspx" title="SIUP"/>
+			<!--<siteMapNode url="~/Utility/Izin/TDP/TDP.aspx" title="TDP"/>-->
+		</siteMapNode>
+		<siteMapNode url="" title="Pemeriksaan">
+			<siteMapNode url="~/Utility/Izin/IMB/IMBPemeriksaan.aspx" title="Pemeriksaan IMB"/>
+			<siteMapNode url="~/Utility/Izin/IMB/IMBBAP.aspx" title="BAP IMB" />
+			<siteMapNode url="~/Utility/Izin/Lokasi/LokasiPemeriksaan.aspx" title="Pemeriksaan Lokasi"/>
+			<siteMapNode url="~/Utility/Izin/Lokasi/LokasiBAP.aspx" title="BAP Lokasi" />
+			<siteMapNode url="~/Utility/Izin/IUI/IUIPemeriksaan.aspx" title="Pemeriksaan IUI"/>
+			<siteMapNode url="~/Utility/Izin/IUI/IUIBAP.aspx" title="BAP IUI" />
+			<!--<siteMapNode url="~/Utility/Izin/IPT/IPTPemeriksaan.aspx" title="Pemeriksaan IPT"/>
+			<siteMapNode url="~/Utility/Izin/IPT/IPTBAP.aspx" title="BAP IPT" />-->
+			<siteMapNode url="~/Utility/Izin/IPI/IPIPemeriksaan.aspx" title="Pemeriksaan IPI"/>
+			<!--<siteMapNode url="" title="BAP IPI" />-->
+      <siteMapNode url="~/Utility/Izin/TDI/TDIBAP.aspx" title="BAP TDI" />
+			<siteMapNode url="~/Utility/Izin/HO/HOPemeriksaan.aspx" title="Pemeriksaan HO"/>
+			<siteMapNode url="~/Utility/Izin/HO/HOBAP.aspx" title="BAP HO" />
+			<!--<siteMapNode url="~/Utility/Izin/TDP/TDPPemeriksaan.aspx" title="Pemeriksaan TDP"/>
+			<siteMapNode url="~/Utility/Izin/TDP/TDPBAP.aspx" title="BAP TDP" /-->
+		</siteMapNode>
+		<siteMapNode title="Rapat">
+			<siteMapNode url="~/Utility/Izin/Lokasi/LokasiRapat.aspx" title="Lokasi"></siteMapNode>
+		</siteMapNode>
+		<siteMapNode url="" title="Retribusi">
+			<siteMapNode url="~/Utility/Izin/IMB/IMBRetribusi.aspx" title="IMB"/>
+      <siteMapNode url="~/Utility/Izin/HO/HoRetribusi2.aspx" title="HO"/>
+      <!--<siteMapNode url="~/Utility/Izin/Lokasi/LokasiRetribusi.aspx" title="Lokasi"/>
+      <siteMapNode url="~/Utility/Izin/IUI/IUIRetribusi.aspx" title="IUI"/>
+      <siteMapNode url="~/Utility/Izin/IPT/IPTRetribusi.aspx" title="IPT"/>
+      <siteMapNode url="~/Utility/Izin/IPI/IPIRetribusi.aspx" title="IPI"/>
+      <siteMapNode url="~/Utility/Izin/TDI/TDIRetribusi.aspx" title="TDI"/>
+			<siteMapNode url="~/Utility/Izin/HO/HORetribusiDaftarUlang.aspx" title="HO Daftar Ulang" />
+      <siteMapNode url="~/Utility/Izin/SIUP/SIUPRetribusi.aspx" title="SIUP"/>
+      <siteMapNode url="~/Utility/Izin/TDP/TDPRetribusi.aspx" title="TDP"/>-->
+		</siteMapNode>
+		<siteMapNode url="" title="Pembayaran Retribusi">
+			<siteMapNode url="~/Utility/Izin/IMB/IMBPembayaran.aspx" title="Pembayaran IMB"/>
+      <siteMapNode url="~/Utility/Izin/IMB/IPBPembayaran.aspx" title="Pembayaran IPB"/>
+      <siteMapNode url="~/Utility/Izin/HO/HOPembayaran.aspx" title="Pembayaran HO" />
+      <!--<siteMapNode url="~/Utility/Izin/Lokasi/LokasiPembayaran.aspx" title="Pembayaran Lokasi" />
+      <siteMapNode url="~/Utility/Izin/IUI/IUIPembayaran.aspx" title="Pembayaran IUI" />
+      <siteMapNode url="~/Utility/Izin/IPT/IPTPembayaran.aspx" title="Pembayaran IPT" />
+      <siteMapNode url="~/Utility/Izin/IPI/IPIPembayaran.aspx" title="Pembayaran IPI" />
+			<siteMapNode url="~/Utility/Izin/TDI/TDIPembayaran.aspx" title="Pembayaran TDI" />
+			<siteMapNode url="~/Utility/Izin/SIUP/SIUPPembayaran.aspx" title="Pembayaran SIUP" />
+      <siteMapNode url="~/Utility/Izin/TDP/TDPPembayaran.aspx" title="Pembayaran TDP" />-->
+		</siteMapNode>
+		<siteMapNode url="" title="Update Status Permohonan">
+			<siteMapNode url="~/Utility/StatusPermohonan.aspx" title="Update"/>
+		</siteMapNode>
+		<siteMapNode url="" title="Laporan">
+			<siteMapNode url="~/Utility/Izin/IMB/IMBReportIndex.aspx" title="IMB"/>
+			<siteMapNode url="~/Utility/Izin/Lokasi/LokasiReportIndex.aspx" title="Lokasi" />
+			<siteMapNode url="~/Utility/Izin/IUI/IUIReportIndex.aspx" title="IUI" />
+			<!--<siteMapNode url="~/Utility/Izin/IPT/IPTReportIndex.aspx" title="IPT" />-->
+			<siteMapNode url="~/Utility/Izin/IPI/IPIReportIndex.aspx" title="IPI" />
+			<siteMapNode url="~/Utility/Izin/TDI/TDIReportIndex.aspx" title="TDI" />
+			<siteMapNode url="~/Utility/Izin/HO/HOReportIndex.aspx" title="HO" />
+			<siteMapNode url="~/Utility/Izin/SIUP/SIUPReportIndex.aspx" title="SIUP" />
+			<!--<siteMapNode url="" title="TDP" />-->
+		</siteMapNode>
+		<siteMapNode url="" title="Serah Terima">
+			<siteMapNode url="~/Utility/Izin/IMB/IMBSerahTerima.aspx" title="IMB"/>
+			<siteMapNode url="~/Utility/Izin/Lokasi/LokasiSerahTerima.aspx" title="Lokasi" />
+			<siteMapNode url="~/Utility/Izin/IUI/IUISerahTerima.aspx" title="IUI" />
+			<!--<siteMapNode url="~/Utility/Izin/IPT/IPTSerahTerima.aspx" title="IPT" />-->
+			<siteMapNode url="~/Utility/Izin/IPI/IPISerahTerima.aspx" title="IPI" />
+			<siteMapNode url="~/Utility/Izin/TDI/TDISerahTerima.aspx" title="TDI" />
+			<siteMapNode url="~/Utility/Izin/HO/HOSerahTerima.aspx" title="HO" />
+			<siteMapNode url="~/Utility/Izin/SIUP/SIUPSerahTerima.aspx" title="SIUP" />
+			<!--<siteMapNode url="~/Utility/Izin/TDP/TDPSerahTerima.aspx" title="TDP" />-->
+		</siteMapNode>
+		<siteMapNode url="" title="Maintenance">
+			<siteMapNode url="~/MasterData/MasterDataPropinsi.aspx" title="Data Propinsi"/>
+			<siteMapNode url="~/Utility/Izin/HO/HOMaintenance.aspx" title="HO"/>
+			<siteMapNode url="~/Utility/Izin/IMB/IMBMaintenance.aspx" title="IMB"/>
+			<siteMapNode url="~/Utility/Izin/Lokasi/LokasiMaintenance.aspx" title="Lokasi"/>
+			<siteMapNode url="~/Utility/Izin/SIUP/SIUPMaintenance.aspx" title="SIUP"/>
+			<siteMapNode url="~/MasterData/MasterDataTimPemeriksa.aspx" title="Data Tim Pemeriksa"/>
+			<siteMapNode url="~/MasterData/MasterDataKLUI.aspx" title="Data KLUI"/>
+			<siteMapNode url="~/MasterData/MasterDataPenandatanganan.aspx" title="Penandatangan"/>
+			<siteMapNode url="~/Utility/Rekening.aspx" title="Rekening"/>
+			<siteMapNode url="~/MasterData/MasterDataIndustri.aspx" title="Data Industri"/>
+			<siteMapNode url="~/Utility/Izin/SyaratIzin.aspx" title="Data Syarat Izin"/>
+      <siteMapNode url="~/MasterData/MasterDataSyarat.aspx" title="Tambah Syarat"/>
+      <!--<siteMapNode url="~/MasterData/MasterDataSIUP.aspx" title="Modal SIUP"/>-->
+		</siteMapNode>
+    <siteMapNode url="" title="User Manager">
+      <siteMapNode url="UserAccount/UserGroup.aspx" title="Group" />
+      <siteMapNode url="UserAccount/UserAccount.aspx" title="User"/>
+    </siteMapNode>
+	</siteMapNode>
+</siteMap>

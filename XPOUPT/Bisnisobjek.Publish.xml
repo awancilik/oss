@@ -1,0 +1,62 @@
+<publishData>
+  <publishTarget publishUrl="D:\OSSPub\">
+    <file relUrl="bin/Csla.XmlSerializers.dll" publishTime="09/08/2008 11:03:56" />
+    <file relUrl="bin/Csla.dll" publishTime="09/08/2008 11:03:55" />
+    <file relUrl="bin/Bisnisobjek.pdb" publishTime="14/01/2011 16:00:42" />
+    <file relUrl="bin/Bisnisobjek.xml" publishTime="14/01/2011 16:00:42" />
+    <file relUrl="bin/Bisnisobjek.dll" publishTime="14/01/2011 16:00:42" />
+  </publishTarget>
+  <publishTarget publishUrl="C:\Documents and Settings\poli\Desktop\OSSPub\">
+    <file relUrl="bin/Csla.XmlSerializers.dll" publishTime="09/08/2008 11:03:56" />
+    <file relUrl="bin/Csla.dll" publishTime="09/08/2008 11:03:55" />
+    <file relUrl="bin/Bisnisobjek.pdb" publishTime="12/01/2011 11:37:09" />
+    <file relUrl="bin/Bisnisobjek.xml" publishTime="12/01/2011 11:37:09" />
+    <file relUrl="bin/Bisnisobjek.dll" publishTime="12/01/2011 11:37:09" />
+  </publishTarget>
+  <publishTarget publishUrl="D:\publishan\10 Januari 2011\">
+    <file relUrl="bin/Csla.XmlSerializers.dll" publishTime="09/08/2008 11:03:56" />
+    <file relUrl="bin/Csla.dll" publishTime="09/08/2008 11:03:55" />
+    <file relUrl="bin/Bisnisobjek.pdb" publishTime="10/01/2011 11:34:54" />
+    <file relUrl="bin/Bisnisobjek.dll" publishTime="10/01/2011 11:34:54" />
+  </publishTarget>
+  <publishTarget publishUrl="D:\publishan\9 Januari 2011\">
+    <file relUrl="bin/Csla.XmlSerializers.dll" publishTime="09/08/2008 11:03:56" />
+    <file relUrl="bin/Csla.dll" publishTime="09/08/2008 11:03:55" />
+    <file relUrl="bin/Bisnisobjek.pdb" publishTime="10/01/2011 11:34:54" />
+    <file relUrl="bin/Bisnisobjek.dll" publishTime="10/01/2011 11:34:54" />
+  </publishTarget>
+  <publishTarget publishUrl="D:\publishan9 Januari 2011\">
+    <file relUrl="bin/Csla.XmlSerializers.dll" publishTime="09/08/2008 11:03:56" />
+    <file relUrl="bin/Csla.dll" publishTime="09/08/2008 11:03:55" />
+    <file relUrl="bin/Bisnisobjek.pdb" publishTime="10/01/2011 11:34:54" />
+    <file relUrl="bin/Bisnisobjek.dll" publishTime="10/01/2011 11:34:54" />
+  </publishTarget>
+  <publishTarget publishUrl="D:\publishan\8 Januari 2011\">
+    <file relUrl="bin/Csla.XmlSerializers.dll" publishTime="09/08/2008 11:03:56" />
+    <file relUrl="bin/Csla.dll" publishTime="09/08/2008 11:03:55" />
+    <file relUrl="bin/Bisnisobjek.pdb" publishTime="08/01/2011 10:57:17" />
+    <file relUrl="bin/Bisnisobjek.dll" publishTime="08/01/2011 10:57:17" />
+  </publishTarget>
+  <publishTarget publishUrl="D:\publishan\7 Januari 2011\">
+    <file relUrl="bin/Csla.XmlSerializers.dll" publishTime="09/08/2008 11:03:56" />
+    <file relUrl="bin/Csla.dll" publishTime="09/08/2008 11:03:55" />
+    <file relUrl="bin/Bisnisobjek.pdb" publishTime="07/01/2011 13:27:45" />
+    <file relUrl="bin/Bisnisobjek.dll" publishTime="07/01/2011 13:27:45" />
+  </publishTarget>
+  <publishTarget publishUrl="D:\publishan\5 Januari 2011\">
+    <file relUrl="bin/Csla.XmlSerializers.dll" publishTime="09/08/2008 11:03:56" />
+    <file relUrl="bin/Csla.dll" publishTime="09/08/2008 11:03:55" />
+    <file relUrl="bin/Bisnisobjek.pdb" publishTime="05/01/2011 17:57:35" />
+    <file relUrl="bin/Bisnisobjek.dll" publishTime="05/01/2011 17:57:35" />
+  </publishTarget>
+  <publishTarget publishUrl="D:\publishan\3 Januari 2011\">
+    <file relUrl="bin/Csla.XmlSerializers.dll" publishTime="08/09/2008 11:03:56" />
+    <file relUrl="bin/Csla.dll" publishTime="08/09/2008 11:03:55" />
+    <file relUrl="bin/Bisnisobjek.pdb" publishTime="01/03/2011 11:53:12" />
+    <file relUrl="bin/Bisnisobjek.dll" publishTime="01/03/2011 11:53:12" />
+  </publishTarget>
+  <publishTarget publishUrl="D:\publishan\20 Desember 2010\">
+    <file relUrl="bin/Csla.XmlSerializers.dll" publishTime="08/09/2008 11:03:56" />
+    <file relUrl="bin/Csla.dll" publishTime="08/09/2008 11:03:55" />
+  </publishTarget>
+</publishData>

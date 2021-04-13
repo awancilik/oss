@@ -1,0 +1,152 @@
+﻿#wrapper
+{
+	margin: 0 auto;
+}
+#branding
+{
+	height:160px;
+	margin:0 auto;
+	color:#EEEEEE;
+}
+#content
+{
+	width:600px;
+	padding-bottom:5px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+	color:White;
+}
+#mainNav
+{
+	color:#EEEEEE;
+}
+#footer
+{	
+	float:right;
+	color:#EEEEEE;
+	margin-left:10px;
+	
+}
+
+.clearfix:after {content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+/*-----------------------------------------------------------------------------
+dataprop
+-------------------------------------------------------------------------------*/
+.dataprop
+{
+    width: 100%;
+}
+.daftarulang
+{
+  width:70%;
+  background-color:#d6bBb6;
+  background-color:#F1E3F1;
+  text-align:right;
+  padding:6px 7px;
+  color:Black;
+  display:block;
+}
+.dataprop td.headerfield
+{
+	width:15%;
+	white-space:nowrap;
+    padding:6px 7px;
+    text-align:right;
+    font-weight:bold;
+    color:red;
+    font-size:large;
+    background-color:#d6bBb6;
+    background-color:#F1E3F1;
+}
+.dataprop td.field
+{
+	width:84%;
+    padding:0 0 0 10px;
+    min-height:1.5em;
+    overflow:visible;
+    background-color:#f4eff4;
+    color:Black;
+    font-weight:bold;
+}
+.dataprop td.field input,
+.dataprop td.field select
+{
+    vertical-align:middle;
+    margin-right:2px;
+    margin-left:5px;
+}
+.dataprop td.field table.radiolist
+{
+	margin-left:-5px;
+}
+.dataprop tr.rowfield td.field
+{
+    padding:6px 5px 6px 10px;
+    display:block;
+}
+.dataprop tr.rowfield td.headerfield,
+.dataprop tr.rowfield td.field
+{
+    border-bottom:1px solid #BC758E;
+}
+.dataprop tr.emptydata td
+{
+	padding: 5px 5px 5px 5px;
+	background-color:#FFF9D7;
+}
+.dataprop tr.emptydata img, 
+.dataprop tr.emptydata span
+{
+	vertical-align:middle;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+/* Toolbar
+/*-----------------------------------------------------------------------------------------*/
+.toolbar ul.clearfix
+{
+	background-color: #DE477D;
+	border: #8A0A37 1px solid;
+	margin-bottom:4px;
+}
+.clearfix li
+{ 
+    float:left; 
+}
+.toolbar li .tb_itm
+{
+	display: block;
+	float: left;
+	padding: 3px 6px;
+	color: #f4f4f4;
+	font-size:x-large;
+}
+.toolbar li .tb_itm img,
+.toolbar li .tb_itm span,
+.toolbar li span,
+.toolbar li select,
+.toolbar li input
+{ 
+    vertical-align:middle;
+}
+
+.toolbar li a.tb_itm:hover span
+{ 
+	text-decoration:underline; 
+}
+.toolbar li span.tb_sep
+{
+	line-height:20px; vertical-align:middle;
+	color:#f4f4f4;
+}

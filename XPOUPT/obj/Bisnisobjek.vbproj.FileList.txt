@@ -1,0 +1,11 @@
+bin\Bisnisobjek.dll
+bin\Bisnisobjek.pdb
+bin\Bisnisobjek.xml
+bin\Csla.dll
+bin\Csla.XmlSerializers.dll
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Bisnisobjek.Resources.resources
+obj\Debug\Bisnisobjek.vbproj.GenerateResource.Cache
+obj\Debug\Bisnisobjek.dll
+obj\Debug\Bisnisobjek.xml
+obj\Debug\Bisnisobjek.pdb

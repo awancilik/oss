@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{562F116C-E75F-4814-9070-1D9F7A614DAB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Bisnisobjek</RootNamespace>
+    <AssemblyName>Bisnisobjek</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <OptionStrict>On</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Bisnisobjek.xml</DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Bisnisobjek.xml</DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Csla, Version=3.0.1.0, Culture=neutral, PublicKeyToken=93be5fdc093e4c30, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Csla\Csla.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpo.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Csla" />
+    <Import Include="Csla.Data" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Data.SqlClient" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Counter.vb" />
+    <Compile Include="Izin\HO\HO.vb" />
+    <Compile Include="Izin\HO\HoAlat.vb" />
+    <Compile Include="Izin\HO\HOBAP.vb" />
+    <Compile Include="Izin\HO\HOBAPDetail.vb" />
+    <Compile Include="Izin\HO\HOEnergi.vb" />
+    <Compile Include="Izin\HO\HOJenisGangguan.vb" />
+    <Compile Include="Izin\HO\HOGangguan.vb" />
+    <Compile Include="Izin\HO\HOJenisLingkungan.vb" />
+    <Compile Include="Izin\HO\HOJenisUsaha.vb" />
+    <Compile Include="Izin\HO\HOPemeriksaan.vb" />
+    <Compile Include="Izin\HO\HOPemeriksaanDetail.vb" />
+    <Compile Include="Izin\HO\HORekomendasi.vb" />
+    <Compile Include="Izin\HO\HORekomendasiDetail.vb" />
+    <Compile Include="Izin\HO\HORetribusi.vb" />
+    <Compile Include="Izin\HO\HOTaripLingkungan.vb" />
+    <Compile Include="Izin\IMB\IMB.vb" />
+    <Compile Include="Izin\IMB\IMBBAP.vb" />
+    <Compile Include="Izin\IMB\IMBisi.vb" />
+    <Compile Include="Izin\IMB\IMBkoef.vb" />
+    <Compile Include="Izin\IMB\IMBlantai.vb" />
+    <Compile Include="Izin\IMB\IMBPemeriksaan.vb" />
+    <Compile Include="Izin\IMB\IMBPemeriksaanDetail.vb" />
+    <Compile Include="Izin\IMB\IMBretribusi.vb" />
+    <Compile Include="Izin\IMB\IMBRetribusiDetails.vb" />
+    <Compile Include="Izin\IPI\IPI.vb" />
+    <Compile Include="Izin\IPI\IPIDetail.vb" />
+    <Compile Include="Izin\IPI\IPIInvestasi.vb" />
+    <Compile Include="Izin\IPI\IPIJenisModal.vb" />
+    <Compile Include="Izin\IPI\IPIKomoditi.vb" />
+    <Compile Include="Izin\IPI\IPIMesin.vb" />
+    <Compile Include="Izin\IPI\IPIPemasaran.vb" />
+    <Compile Include="Izin\IPI\IPIPemeriksaan.vb" />
+    <Compile Include="Izin\IPI\IPIPemeriksaanDetail.vb" />
+    <Compile Include="Izin\IPT\IPT.vb" />
+    <Compile Include="Izin\IPT\IPTBAP.vb" />
+    <Compile Include="Izin\IPT\IPTBAPDetail.vb" />
+    <Compile Include="Izin\IPT\IPTPemeriksaan.vb" />
+    <Compile Include="Izin\IPT\IPTPemeriksaanDetail.vb" />
+    <Compile Include="Izin\IPT\IPTRetribusi.vb" />
+    <Compile Include="Izin\IUI\IUI.vb" />
+    <Compile Include="Izin\IUI\IUIBAP.vb" />
+    <Compile Include="Izin\IUI\IUIDetail.vb" />
+    <Compile Include="Izin\IUI\IUIKomoditi.vb" />
+    <Compile Include="Izin\IUI\IUIMesin.vb" />
+    <Compile Include="Izin\IUI\IUIPemeriksaan.vb" />
+    <Compile Include="Izin\IUI\IUIPemeriksaanDetail.vb" />
+    <Compile Include="Izin\IUI\IUIRetribusi.vb" />
+    <Compile Include="Izin\JenisIzin.vb" />
+    <Compile Include="Izin\JenisPermohonanIzin.vb" />
+    <Compile Include="Izin\Lokasi\Lokasi.vb" />
+    <Compile Include="Izin\Lokasi\LokasiBAP.vb" />
+    <Compile Include="Izin\Lokasi\LokasiBAPDetail.vb" />
+    <Compile Include="Izin\Lokasi\LokasiHDPPT.vb" />
+    <Compile Include="Izin\Lokasi\LokasiIndek.vb" />
+    <Compile Include="Izin\Lokasi\LokasiPemeriksaan.vb" />
+    <Compile Include="Izin\Lokasi\LokasiPemeriksaanDetail.vb" />
+    <Compile Include="Izin\Lokasi\LokasiRapat.vb" />
+    <Compile Include="Izin\Lokasi\LokasiRapatDetail.vb" />
+    <Compile Include="Izin\Lokasi\LokasiRetribusi.vb" />
+    <Compile Include="Izin\Lokasi\LokasiStatus.vb" />
+    <Compile Include="Izin\Lokasi\LokasiTujuan.vb" />
+    <Compile Include="Izin\SIUP\SIUP.vb" />
+    <Compile Include="Izin\SIUP\SIUPBank.vb" />
+    <Compile Include="Izin\SIUP\SIUPJenisKLUI.vb" />
+    <Compile Include="Izin\SIUP\SIUPMaksud.vb" />
+    <Compile Include="Izin\SIUP\SIUPMaksudDetail.vb" />
+    <Compile Include="Izin\SIUP\SIUPModal.vb" />
+    <Compile Include="Izin\SIUP\SIUPtBentuk.vb" />
+    <Compile Include="Izin\TDI\TDI.vb" />
+    <Compile Include="Izin\TDI\TDIBAP.vb" />
+    <Compile Include="Izin\TDI\TDIDetail.vb" />
+    <Compile Include="Izin\TDI\TDIInvestasi.vb" />
+    <Compile Include="Izin\TDI\TDIJenisModal.vb" />
+    <Compile Include="Izin\TDI\TDIKomoditi.vb" />
+    <Compile Include="Izin\TDI\TDIMesin.vb" />
+    <Compile Include="Izin\TDP\TDP.vb" />
+    <Compile Include="Izin\TDP\TDPBank.vb" />
+    <Compile Include="Izin\TDP\TDPJenisKLUI.vb" />
+    <Compile Include="Izin\TDP\TDPMaksud.vb" />
+    <Compile Include="Izin\TDP\TDPMaksudDetail.vb" />
+    <Compile Include="Izin\TDP\TDPModal.vb" />
+    <Compile Include="Izin\TDP\TDPtBentuk.vb" />
+    <Compile Include="MasterData\HOIndeksGangguan.vb" />
+    <Compile Include="MasterData\HOIndeksLokasi.vb" />
+    <Compile Include="MasterData\HOPergudanganPasar.vb" />
+    <Compile Include="MasterData\HOTimTeknis.vb" />
+    <Compile Include="MasterData\HOUsahaBersifatSosial.vb" />
+    <Compile Include="MasterData\HOUsahaIndustri.vb" />
+    <Compile Include="MasterData\HOUsahaPerdaganganToko.vb" />
+    <Compile Include="MasterData\JenisUsahaKLUI.vb" />
+    <Compile Include="MasterData\Kabupaten.vb" />
+    <Compile Include="MasterData\Kecamatan.vb" />
+    <Compile Include="MasterData\Kelurahan.vb" />
+    <Compile Include="MasterData\MasterDataJenisPermohonan.vb" />
+    <Compile Include="MasterData\MasterDataJenisPerusahaan.vb" />
+    <Compile Include="MasterData\MasterDataSifat.vb" />
+    <Compile Include="MasterData\MasterDataSyarat.vb" />
+    <Compile Include="MasterData\HOTarifLingkungan.vb" />
+    <Compile Include="MasterData\Penandatanganan.vb" />
+    <Compile Include="MasterData\PermohonanDetail.vb" />
+    <Compile Include="MasterData\Perusahaan.vb" />
+    <Compile Include="MasterData\Propinsi.vb" />
+    <Compile Include="Izin\SyaratIzin.vb" />
+    <Compile Include="MasterData\Sertifikat.vb" />
+    <Compile Include="MasterData\SIUPJenis.vb" />
+    <Compile Include="MasterData\StatusBangunan.vb" />
+    <Compile Include="MasterData\StatusPabrik.vb" />
+    <Compile Include="MasterData\StatusTanah.vb" />
+    <Compile Include="MasterData\TDPKegiatanUsahaPokok.vb" />
+    <Compile Include="MasterData\TimPemeriksa.vb" />
+    <Compile Include="MasterData\User.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Permohonan.vb" />
+    <Compile Include="Rekening.vb" />
+    <Compile Include="Tracking.vb" />
+    <Compile Include="User\ChangePasswordCommand.vb" />
+    <Compile Include="User\Database.vb" />
+    <Compile Include="User\MyGroup.vb" />
+    <Compile Include="User\MyGroupInfo.vb" />
+    <Compile Include="User\MyGroupInfoList.vb" />
+    <Compile Include="User\MyGroupMember.vb" />
+    <Compile Include="User\MyGroupMemberList.vb" />
+    <Compile Include="User\MyGroupRole.vb" />
+    <Compile Include="User\MyGroupRoleList.vb" />
+    <Compile Include="User\MyIdentity.vb" />
+    <Compile Include="User\MyPassword.vb" />
+    <Compile Include="User\MyPrincipal.vb" />
+    <Compile Include="User\MyRoleInfo.vb" />
+    <Compile Include="User\MyRoleInfoList.vb" />
+    <Compile Include="User\MyUser.vb" />
+    <Compile Include="User\MyUserInfo.vb" />
+    <Compile Include="User\MyUserInfoList.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v8.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1092</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

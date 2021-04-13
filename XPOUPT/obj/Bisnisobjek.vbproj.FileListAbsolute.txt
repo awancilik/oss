@@ -1,0 +1,11 @@
+E:\File\Project\OSS\XPOUPT\bin\Bisnisobjek.dll
+E:\File\Project\OSS\XPOUPT\bin\Bisnisobjek.pdb
+E:\File\Project\OSS\XPOUPT\bin\Bisnisobjek.xml
+E:\File\Project\OSS\XPOUPT\bin\Csla.dll
+E:\File\Project\OSS\XPOUPT\bin\Csla.XmlSerializers.dll
+E:\File\Project\OSS\XPOUPT\obj\Debug\ResolveAssemblyReference.cache
+E:\File\Project\OSS\XPOUPT\obj\Debug\Bisnisobjek.Resources.resources
+E:\File\Project\OSS\XPOUPT\obj\Debug\Bisnisobjek.vbproj.GenerateResource.Cache
+E:\File\Project\OSS\XPOUPT\obj\Debug\Bisnisobjek.dll
+E:\File\Project\OSS\XPOUPT\obj\Debug\Bisnisobjek.xml
+E:\File\Project\OSS\XPOUPT\obj\Debug\Bisnisobjek.pdb

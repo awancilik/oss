@@ -1,0 +1,104 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage2.master.vb" Inherits="MasterPage2" %>
+<%@ Register Assembly="DevExpress.Web.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+    Namespace="DevExpress.Web.ASPxSplitter" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+    Namespace="DevExpress.Web.ASPxSiteMapControl" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+    Namespace="DevExpress.Web.ASPxNavBar" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+    Namespace="DevExpress.Web.ASPxNavBar" TagPrefix="dxnb" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>PPTS</title>
+    <link href="styles/style.css" rel="stylesheet" />
+    <link href="styles/layout.css" rel="stylesheet" />
+</head>
+<body>
+<center>
+    <dx:ASPxSiteMapDataSource ID="ASPxSiteMapDataSourceMenu" runat="server" SiteMapFileName="~/Menu.sitemap" />
+    <form id="form1" runat="server">
+        <ajax:ScriptManager ID="ScriptManager1" runat="server">
+        </ajax:ScriptManager>
+        <table width="800px" style="padding-bottom:10px;">
+            <tr>
+                <td align="right" style="width: 125px; padding-right: 50px;" rowspan="2">
+                    <asp:Image ID="Logo" runat="server" ImageUrl="~/gambar/kabkudus.gif" />
+                </td>
+                <td colspan="4" align="center">
+                    <table>
+                        <tr>
+                            <td align="center" style="padding-left: 50px; color: White;" valign="top">
+                                <dxe:ASPxLabel ID="HeaderTitle1" runat="server" Text="PEMERINTAH KABUPATEN KUDUS"
+                                    Font-Bold="True" Font-Size="Medium" ForeColor="#EEEEEE">
+                                </dxe:ASPxLabel>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" valign="top">
+                                <dxe:ASPxLabel ID="HeaderTitle2" runat="server" Text="KANTOR PELAYANAN PERIZINAN TERPADU"
+                                    Font-Size="Large" Font-Bold="true" ForeColor="#EEEEEE">
+                                </dxe:ASPxLabel>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" style="padding-left: 50px; color: White;" valign="top">
+                                <dxe:ASPxLabel ID="HeaderTitile3" runat="Server" Text="Jl. Simpang Tujuh No. 1 Telp.(0291) 435018"
+                                    Font-Bold="true" ForeColor="#EEEEEE" Font-Size="Large">
+                                </dxe:ASPxLabel>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" style="padding-left: 50px; color: White;" valign="top">
+                                <dxe:ASPxLabel ID="HeaderTitle4" runat="server" Text="KUDUS 59313" ForeColor="#EEEEEE"
+                                    Font-Bold="true" Font-Size="Medium">
+                                </dxe:ASPxLabel>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr valign="middle">
+                <td>
+                    <div style="float:left; width:175px; text-align:left; vertical-align:middle;">
+                        <span style="color:White;">Login : </span>&nbsp;
+                        <asp:LinkButton ID="CurrentUserLink" runat="server" ForeColor="Aqua" 
+                        PostBackUrl="~/UserAccount/ChangePassword.aspx" Font-Bold="True">-</asp:LinkButton>
+                        |
+                        <asp:LinkButton ID="LogoutButton" runat="server" Text="Keluar" 
+                        CausesValidation="false" ForeColor="Aqua" Font-Bold="True">
+                        </asp:LinkButton>
+                    </div >
+                    <div  style="float:right; color: White; width:175px; text-align:right; vertical-align:middle;" >
+                        <dxe:ASPxLabel ID="lblTanggal" runat="server" Text="[Hari dan Tanggal]" Font-Bold="True">
+                        </dxe:ASPxLabel>
+                    </div >
+                </td>
+            </tr>
+        </table>
+        <table style="width: 100%; border: solid 1px white; margin-left: 0px;" 
+        cellpadding="0px" cellspacing="0px">
+            <tr valign="top">
+                <td style="width:190px;" rowspan="2">
+                    <dxnb:ASPxNavBar ID="ASPxNavBar1" runat="server" EnableAnimation="true" DataSourceID="ASPxSiteMapDataSourceMenu"
+                        AutoCollapse="true" BackColor="transparent">
+                        <ItemStyle BackColor="darkred" SelectedStyle-BackColor="rosyBrown" ForeColor="White" />
+                        <LinkStyle HoverColor="red">
+                        </LinkStyle>
+                    </dxnb:ASPxNavBar>
+                </td>
+            </tr>
+            <tr valign="top" align="left" style="margin: 0 0 0 0;">
+                <td style="border: solid 1px white; padding-top: 0px; padding-left: 5px; height: 600px;"
+                    valign="top">
+                    <div id="content">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+</center>
+</body>
+</html>
